@@ -20,7 +20,7 @@ class Main extends Sprite
 	FlxG.sound.playMusic(AssetPaths.growingonme__ogg);
 
 	#if windows
-	CppAPI.darkMode();   // The code that enables light mode. ONLY WORKS ON WINDOWS
+	CppAPI.darkMode();   // The code that enables dark mode. ONLY WORKS ON WINDOWS
 	 #end
 	 FlxG.mouse.useSystemCursor = true;
 	
